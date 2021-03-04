@@ -11,9 +11,3 @@ def sequence(n):
 
     else:
         return sequence(n-1) + sequence(n-2)
-        
-def factorial(n):
-    for i in range(1, n+1):
-        fact = fact * i
-
-    return fact
